@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+    background: #181818;
+    color: #fefefe;
+    font-weight: 700;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+
+/* Header */
+header {
+    position: fixed;
+}
+
+.header-div {
+    width: 100vw;
+    position: sticky;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 236, 240);
+}
+
+.header--div {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header---div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Waed Icon */
+.header-div-waed {
+    cursor: pointer;
+    height: 90%;
+    width: 7%;
+}
+
+.header-div--waed a{
+    display: block;
+}
+
+.header-div--waed:hover {
+    background-color:rgb(230, 236, 240, 0.1);
+    transition-duration: 0.5s;
+}
+
+.img-logo{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Nav Bar */
+.nav-header{
+    width: 60%;
+}
+
+.header-nav-ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ul-a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #fefefe;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul-a:hover{
+    background-color:rgb(230, 236, 240, 0.1);
+    transition-duration: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+}
