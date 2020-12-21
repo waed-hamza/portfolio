@@ -385,6 +385,11 @@ span{
     align-items: center;
 }
 
+.a-projects{
+    text-decoration: none;
+    color: #fefefe;
+}
+
 .col-projects div{
     border-bottom: 2px solid  #FFFF77;
     width: 25%;
